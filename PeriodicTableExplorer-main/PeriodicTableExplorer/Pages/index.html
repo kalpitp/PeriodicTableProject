@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Assets/CSS/main.css" />
+    <title>Periodic Table Explorer</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <div class="header-logo">
+        <a class="logo-name" href="index.html">Cybage Learning</a>
+
+        <div class="navbar-mobile">
+          <ion-icon name="menu-outline" class="nav-mobile-icon"></ion-icon>
+          <ion-icon name="close-outline" class="nav-mobile-icon"></ion-icon>
+        </div>
+      </div>
+      <div class="search">
+        <form>
+          <input
+            type="search"
+            id="search"
+            placeholder="Search for an element.."
+            autocomplete="off"
+          />
+        </form>
+        <ul class="searchItems" id="searchItems">
+          <!-- <li>a</li>
+          <li>ba</li>
+          <li>c</li>
+          <li>d</li>
+          <li>e</li> -->
+        </ul>
+      </div>
+      <nav class="navbar">
+        <ui class="navbar-list">
+          <li><a class="navbar-item" href="index.html">chemistry</a></li>
+          <li><a class="navbar-item" href="#">Geography</a></li>
+          <li><a class="navbar-item" href="#">Contact Us</a></li>
+        </ui>
+      </nav>
+    </header>
+
+    <!-- Main content -->
+    <main class="main_container">
+      <div class="categories" id="categories"></div>
+      <div class="elements" id="elements">
+        <!-- <div class="periodic_element">
+          <div class="element_number">1</div>
+          <div class="element_symbol">H</div>
+          <div class="element_name">Hydrogen</div>
+          <div class="element_mass">1.8</div>
+        </div> -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social_icon">
+        <div class="social_icon_item">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </div>
+        <div class="social_icon_item">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+        <div class="social_icon_item">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
+        <div class="social_icon_item">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="menu_item"><a class="menu_link" href="#">Home</a></div>
+        <div class="menu_item"><a class="menu_link" href="#">chemistry</a></div>
+        <div class="menu_item">
+          <a class="menu_link" href="#">Geography</a>
+        </div>
+        <div class="menu_item">
+          <a class="menu_link" href="#">Contact Us</a>
+        </div>
+      </div>
+
+      <p>&copy;2024 Periodic table Explorer | All Rights Reserved</p>
+    </footer>
+
+    <!-- Script Files -->
+    <!-- CDN Files -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- User Define Scripts -->
+    <script src="../Assets/JS/main.js"></script>
+    <script src="../Assets/JS/toggleNav.js"></script>
+  </body>
+</html>
